@@ -3,13 +3,15 @@
   display: grid;
   grid-template-rows: repeat(5, 20vh);
   grid-template-columns: repeat(5, 20vw);
+  font-family: Roboto;
 }
 
 .left-side {
   grid-column-start: 1;
   grid-row-start: 1;
   grid-row-end: 6;
-  background-color: darkcyan;
+  background-color: dodgerblue;
+  color: white;
 }
 
 .up-side {
@@ -26,4 +28,17 @@
   grid-column-start: 2;
   grid-column-end: 6;
   background-color: black;
+}
+.dash-div {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  gap: 10px;
+}
+#dash {
+  width: 50px;
+  fill: white;
+}
+h1 {
+  display: inline;
 }
