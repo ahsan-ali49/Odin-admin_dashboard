@@ -35,10 +35,31 @@
   margin-left: 10px;
   gap: 10px;
 }
-#dash {
+
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-left: 1px;
+  gap: 15px;
+}
+
+#dash-icon {
   width: 50px;
   fill: white;
 }
-h1 {
+.icon {
+  width: 40px;
+  fill: white;
+  margin-left: 0px;
+}
+h1,
+h2 {
   display: inline;
+}
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 20px;
 }
