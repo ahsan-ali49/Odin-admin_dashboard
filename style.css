@@ -19,7 +19,11 @@
   grid-row-end: 2;
   grid-column-start: 2;
   grid-column-end: 6;
-  background-color: aqua;
+  background-color: white;
+  padding: 20px;
+  padding-left: 200px;
+  display: flex;
+  flex-direction: column;
 }
 
 .down-side {
@@ -62,4 +66,36 @@ li {
 
 ul {
   padding-left: 20px;
+}
+
+.search-icon {
+  width: 30px;
+  fill: black;
+  margin-left: 0px;
+}
+
+.search-bar {
+  background-color: whitesmoke;
+  width: 60%;
+  border: 0;
+  border-radius: 20px;
+  margin-left: 1%;
+  margin-right: 10%;
+}
+
+.search-div {
+  display: flex;
+  height: 25%;
+}
+#dp-up {
+  width: 3.2%;
+  border-radius: 32px;
+  margin-left: 2%;
+  margin-right: 4%;
+}
+
+p {
+  margin-top: 0.7%;
+  font-weight: bolder;
+  font-size: larger;
 }
